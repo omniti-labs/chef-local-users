@@ -1,0 +1,5 @@
+# Managed by chef
+<% if not @u['overwrite_ssh_key'] %>
+# However you can change this file and it will not be overwritten
+<% end %>
+<%= @u['ssh_keys'] %>
